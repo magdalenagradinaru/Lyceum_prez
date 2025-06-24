@@ -1,1 +1,1 @@
-The purpose of the website of the "Bogdan Petriceicu - Hasdeu" Theoretical High School is to provide relevant and up-to-date information about the institution, its facilities, academic curriculum, events, projects and other important aspects related to the life of the school. It serves as an online platform through which students, parents, teachers and the community in general can access important information and communicate with the high school.
+
