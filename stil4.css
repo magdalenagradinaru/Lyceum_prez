@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width:100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.navbar{
+  padding: .8rem;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+
+.container{
+    margin-top: 5%;
+}
+
+.single-content{
+    position: relative;
+    transition: 3s;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.8);
+}
+.single-content .text-content,
+.single-content::after{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+}
+
+.single-content::after{
+    content: '';
+    display: block;
+    background: crimson;
+    top: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transform: rotate(-1,1,0,100deg);
+    transition: .4s;
+}
+
+.single-content:hover::after{
+    opacity: .9;
+    transform: rotate(0,0,0,0deg);
+}
+.single-content img{
+    width: 100%;
+    height: auto;
+}
+.text-content{
+    top: 45%;
+    opacity: 0;
+    z-index: 1;
+    transform: translate(10%, -30%);
+    transition: .3s;
+    text-align: center;
+    color:#fff;
+}
+.text-content h4{
+    font-family: big john;
+}
+.single-content:hover .text-content{
+    opacity: 1;
+    transform:translate(0,-50%) ;
+    transition-delay: .3s;
+} 
+
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+  }
+  
+  hr.light{
+    border-top: 1px solid #d5d5d5;
+    width:75%;
+    margin-top:.8rem ;
+    margin-bottom: 1rem;
+  }
+  
+  footer a{
+    color: #d5d5d5;
+  }
+  
+  hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  
+
+
+
+  .youtube-icon {
+    font-size: 50px; /* Ajustați dimensiunea după preferințe */
+    color: red; /* Schimbați culoarea după preferințe */
+    margin-left: 100px; /* Ajustați marginea după preferințe */
+    margin-right: 100px;
+  }
+
+  .text{
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
+  
+  
